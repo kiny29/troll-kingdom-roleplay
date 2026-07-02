@@ -21,10 +21,23 @@ body {
 }
 
 /* 메인 화면 */
-/* 메인 화면 */
 .main-screen {
   text-align: center;
   padding: 40px 20px;
+  background-image: url('index_bg.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  margin-left: calc(-50vw + 50%);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .title {
@@ -45,6 +58,9 @@ body {
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
   gap: 20px;
   margin-bottom: 40px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .episode-btn {
