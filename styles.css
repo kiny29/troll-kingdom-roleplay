@@ -16,20 +16,15 @@ body {
 }
 
 .container {
-  max-width: 900px;
+  max-width: 100%;
   margin: 0 auto;
 }
 
 /* 메인 화면 */
+/* 메인 화면 */
 .main-screen {
   text-align: center;
   padding: 40px 20px;
-  background-image: url('index_bg.png');
-  background-size: contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  min-height: 100vh;
 }
 
 .title {
