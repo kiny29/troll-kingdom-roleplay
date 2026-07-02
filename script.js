@@ -65,7 +65,7 @@ const voiceSettings = {
     rate: 0.85,
     voiceIndex: 0,
   },
-  'Little Troll': {
+  'Troll Princess': {
     pitch: 1.1,
     rate: 1.05,
     voiceIndex: 1,
